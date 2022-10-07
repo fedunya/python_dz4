@@ -21,4 +21,5 @@ while d * d <= num:
         else:
             d += 1
 factors.append(num)
+factors = list(set(factors))
 print(factors)
